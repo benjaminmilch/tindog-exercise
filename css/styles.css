@@ -1,0 +1,178 @@
+/* ELEMENT SELECTORS */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  color: #8F8F8F;
+}
+
+/* HEADINGS */
+
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* CONTAINER */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* DOWNLOAD BUTTONS */
+
+.download-button {
+  margin: 5% 4% 5% 0;
+}
+
+/* SECTIONS */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* NAVIGATION BAR */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+/* TITLE */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* FEATURES */
+
+#features {
+  position: relative;
+}
+
+.feature-icon {
+  color: #EF8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #FF4C68;
+}
+
+.feature-item {
+  padding: 5%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/* TESTIMONAILS */
+
+.testimonial-img {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* PRESS */
+
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+/* PRICING */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.pricing-fee {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-type {
+  font-size: 1.5rem;
+}
+
+/* FOOTER */
+
+#footer {
+  padding: 3% 10%;
+}
+
+.footer-icon {
+  margin: 8px;
+  padding-bottom: 8px;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
